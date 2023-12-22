@@ -35,10 +35,7 @@ public class AdminLoginServlet extends HttpServlet {
             session.setAttribute(CommonString.ADMIN_SESSION, admin);
             int status_acc = admin.getId_status_acc();
             if (status_acc == 1) {
-                /*
-                 *-- trạng thái tài khoản phải là "Bình thường"
-                 *-- => mới có thể đăng nhập được vào hệ thống
-                 */
+
                 response.sendRedirect(request.getContextPath() + "/admin/trang-chu");
 
             } else {
