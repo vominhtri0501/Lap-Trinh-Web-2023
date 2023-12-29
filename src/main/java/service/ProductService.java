@@ -1,7 +1,11 @@
 package service;
 
 
+import database.DbConnection;
 import database.dao.ProductDAO;
+import model.Product;
+
+import java.util.List;
 
 public final class ProductService {
     private static final String QUERY_PRODUCTS =
@@ -15,4 +19,14 @@ public final class ProductService {
                     "JOIN type_product tp ON st.id_type_product = tp.id_type_product\t";
 
 
-}
+    public static List<Product> getAllProducts() {
+        DbConnection connectDB = DbConnection.getInstance();
+        ProductDAO dao = new ProductDAO();
+        try {
+            return dao.getAllProducts(connectDB);
+        } finally {
+            connectDB.close();
+        }
+
+    }
+
