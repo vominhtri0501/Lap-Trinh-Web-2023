@@ -10,15 +10,15 @@
                 <div class="col-lg-5 col-md-6 col-12">
                     <div class="single-footer about pr-5">
                         <div class="logo mb-4">
-                            <a href="${context}/shop/home.jsp"><img src="${context}/shop/images/labchemicals-logo-non-bg.png" alt="#"/></a>
+                            <a href="${context}/shop/home.jsp"><img src="${context}/shop/images/logo_footer.jpg)" alt="#"/></a>
                         </div>
                         <p class="text">
-                            Lab Chemicals là trang web mua sắm trực tuyến với sản phẩm chính là
-                            hóa chất dùng cho thí nghiệm. Chúng tôi cam kết đem đến những
+                            Future là trang web mua sắm trực tuyến với sản phẩm chính là
+                            đồ nội thất. Chúng tôi cam kết đem đến những
                             sản phẩm chất lượng với mức giá TỐT NHẤT trên thị trường.
                         </p>
                         <p class="call">
-                            Có bất kỳ câu hỏi nào vui lòng liên hệ:<span class="d-block"><a href="tel:123456789">0983 803 100</a></span>
+                            Có bất kỳ câu hỏi nào vui lòng liên hệ:<span class="d-block"><a href="tel:123456789">0329 463 114</a></span>
                         </p>
                     </div>
                 </div>
@@ -61,8 +61,8 @@
                                 <li class="mb-2">
                                     35 Đinh Tiên Hoàng, phường 5, quận 5, Tp. Hồ Chí Minh
                                 </li>
-                                <li class="mb-2">info@lachemicals.com</li>
-                                <li>0983 803 100</li>
+                                <li class="mb-2">info@Noithat.com</li>
+                                <li>0329 463 114</li>
                             </ul>
                         </div>
                         <ul class="icon mt-3">
@@ -93,7 +93,7 @@
                     <div class="col-lg-6 col-12">
                         <div class="left">
                             <p class="text-white">
-                                © 2022 - Bản quyền thuộc về Lab Chemicals &#8722; Đã đăng ký bản quyền.
+                                © 2023 - Bản quyền thuộc về Nội thất Future &#8722; Đã đăng ký bản quyền.
                             </p>
                         </div>
                     </div>
