@@ -4,7 +4,10 @@ package service;
 import database.DbConnection;
 import database.dao.ProductDAO;
 import model.Product;
+import model.StatusProduct;
+import model.SubTypeProduct;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public final class ProductService {
@@ -28,5 +31,23 @@ public final class ProductService {
             connectDB.close();
         }
 
+    }
+
+    public static List<Object> getSubTypeAndStatusAndSupplierForProduct() {
+        DbConnection connectDB = DbConnection.getInstance();
+        ProductDAO dao = new ProductDAO();
+        List<Object> result = new ArrayList<>();
+
+        List<SubTypeProduct> subtypeProducts = dao.getSubTypeProducts(connectDB);
+        List<StatusProduct> statusProducts = dao.getStatusProducts(connectDB);
+        List<Supplier> suppliers = dao.getSuppliers(connectDB);
+
+        result.add(subtypeProducts);
+        result.add(statusProducts);
+        result.add(suppliers);
+
+        connectDB.close();
+        return result;
+    }
     }
 

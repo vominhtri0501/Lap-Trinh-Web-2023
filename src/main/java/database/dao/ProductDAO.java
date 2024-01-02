@@ -2,10 +2,12 @@ package database.dao;
 
 import database.DbConnection;
 import model.Product;
+import model.SubTypeProduct;
 
 import java.sql.PreparedStatement;
 
 import java.sql.SQLException;
+import java.util.List;
 
 public class ProductDAO {
 
@@ -54,4 +56,9 @@ public class ProductDAO {
 
     }
 
+    public List<SubTypeProduct> getSubTypeProducts(DbConnection connectDB) {
+    }
+
+    public List<Product> getAllProducts(DbConnection connectDB) {
+    }
 }
