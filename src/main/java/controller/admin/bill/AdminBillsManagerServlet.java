@@ -37,6 +37,8 @@ public class AdminBillsManagerServlet extends HttpServlet {
         resp.sendRedirect(req.getContextPath() + "/admin/quan-ly-don-hang");
     }
 
+
+
     private int extractStatusId(String status) {
         switch (status) {
             case "bg-success": return 1;
