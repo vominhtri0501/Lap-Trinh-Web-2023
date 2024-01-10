@@ -135,7 +135,61 @@
 <jsp:include page="../common/shop-js.jsp"/>
 
 <script>
+    $('.minus .btn-number').on('click', function () {
+        const pId = $(this).closest('tr').attr('data-product-id')
+        window.location.href = '${context}/shop/add-to-cart?product_id=' + pId + '&action=remove'
+    })
 
+    $('.plus .btn-number').on('click', function () {
+        const pId = $(this).closest('tr').attr('data-product-id')
+        window.location.href = '${context}/shop/add-to-cart?product_id=' + pId + '&action=add'
+    })
+
+    $('.action a').on('click', function () {
+        $.alert({
+            title: 'Xác nhận xóa',
+            content: 'Xóa sản phẩm ' + $(this).closest('tr').find('a[data-product-name]').attr('data-product-name'),
+            closeIcon: true,
+            animateFromElement: false,
+            theme: 'material',
+            buttons: {
+                login: {
+                    text: 'Xóa',
+                    btnClass: 'btn-danger',
+                    action: () => {
+                        const pId = $(this).closest('tr').attr('data-product-id')
+                        window.location.href = '${context}/shop/add-to-cart?product_id=' + pId + '&action=delete'
+                    }
+                }
+            }
+        })
+
+        return false
+    })
+
+    $('.btn.buy').on('click', function () {
+        <%--suppress ELSpecValidationInJSP--%>
+        const isLogin = Boolean(${sessionScope.containsKey('auth_customer')})
+        if (!isLogin) {
+            $.alert({
+                title: 'Đăng nhập',
+                content: 'Vui lòng đăng nhập để mua hàng',
+                closeIcon: true,
+                animateFromElement: false,
+                theme: 'material',
+                buttons: {
+                    login: {
+                        text: 'Đăng nhập',
+                        action: () => window.location.href = '${context}/shop/login'
+                    }
+                }
+            })
+
+        } else
+            window.location.href = '${context}/shop/checkout'
+
+        return false
+    })
 </script>
 </body>
 
