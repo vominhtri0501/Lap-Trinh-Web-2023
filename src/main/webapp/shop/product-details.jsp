@@ -193,7 +193,7 @@
                                     <a href="blog.html">Tin tức</a>
                                 </li>
                                 <li class="position-relative">
-                                    <a href="contact.html">Liên hệ</a>
+                                    <a href="contact.jsp">Liên hệ</a>
                                 </li>
                             </ul>
                         </div>
