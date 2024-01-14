@@ -8,8 +8,8 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Lab Chemicals | Đăng Nhập</title>
-    <link rel="icon" type="image/png" href="images/labchemicals-logo-icon.png"/>
+    <title>Nội thất Future | Đăng Nhập</title>
+    <link rel="icon" type="image/png" href="images/img_logo.png"/>
 
     <!-- ===== STYLESHEET ===== -->
     <jsp:include page="../common/shop-css.jsp"/>
@@ -23,7 +23,7 @@
             <div class="row py-3">
                 <div class="col-lg-7 col-md-7 col-12">
                     <div class="title-left d-flex justify-content-start h-100 align-items-center">
-                        <a class="w-25 mr-4" href="${context}/shop/home"><img src="images/labchemicals-logo.png" alt="" /></a>
+                        <a class="w-25 mr-4" href="${context}/shop/home"><img src="images/img_logo.png" alt="" /></a>
                         <span class="d-inline-block mt-1">Đăng Nhập</span>
                     </div>
                 </div>

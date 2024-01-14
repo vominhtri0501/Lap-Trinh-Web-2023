@@ -11,8 +11,8 @@
                 <div class="col-lg-7 col-md-7 col-12">
                     <div class="text-left">
                         <ul>
-                            <li><i class="ti-headphone-alt"></i>0983 803 100</li>
-                            <li><i class="fa fa-envelope-o"></i>support@labchemicals.com</li>
+                            <li><i class="ti-headphone-alt"></i>0329 463 114</li>
+                            <li><i class="fa fa-envelope-o"></i>support@NoiThat.com</li>
                         </ul>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="${context}/shop/home"><img src="${context}/shop/images/labchemicals-logo.png" alt="logo"/></a>
+                        <a href="${context}/shop/home"><img src="${context}/shop/images/img_logo.png" alt="logo"/></a>
                     </div>
                     <!-- Search Mobile -->
                     <div class="mobile-search">
@@ -112,35 +112,37 @@
                 <div class="navbar-collapse">
                     <ul class="nav menu navbar-nav">
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="1">Hóa chất<i class="ti-angle-down"></i></a>
+                            <a href="#" data-t="1">Sản phẩm<i class="ti-angle-down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" data-st="1">AXIT</a></li>
-                                <li><a href="#" data-st="2">BAZO</a></li>
-                                <li><a href="#" data-st="3">MUỐI</a></li>
-                                <li><a href="#" data-st="4">KIM LOẠI</a></li>
-                                <li><a href="#" data-st="5">CHẤT CHỈ THỊ</a></li>
-                                <li><a href="#" data-st="6">DUNG MÔI</a></li>
-                                <li><a href="#" data-st="7">THUỐC THỬ</a></li>
-                                <li><a href="#" data-st="8">HỢP CHẤT HỮU CƠ</a></li>
-                                <li><a href="#" data-st="9">OXIT</a></li>
+                                <li><a href="#" data-st="1">Phòng khách</a></li>
+                                <li><a href="#" data-st="2">Phòng ăn</a></li>
+                                <li><a href="#" data-st="3">Tủ bếp</a></li>
+                                <li><a href="#" data-st="4">Giường ngủ</a></li>
+                                <li><a href="#" data-st="5">Phòng làm việc</a></li>
+                                <li><a href="#" data-st="6">Đồ trang trí</a></li>
+
                             </ul>
                         </li>
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="2">Dụng cụ<i class="ti-angle-down"></i></a>
+                            <a href="#" data-t="2">Bộ sưu tập<i class="ti-angle-down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" data-st="10">GIÁ ĐỠ ỐNG NGHIỆM</a></li>
-                                <li><a href="#" data-st="11">KẸP GỖ</a></li>
-                                <li><a href="#" data-st="12">DỤNG CỤ THỦY TINH</a></li>
-                                <li><a href="#" data-st="13">ỐNG HÚT NHỎ GIỌT</a></li>
+                                <li><a href="#" data-st="7">VIENNA Collection</a></li>
+                                <li><a href="#" data-st="8">OSLO Collection</a></li>
+                                <li><a href="#" data-st="9">MALAGA Collection</a></li>
+                                <li><a href="#" data-st="10">MILAN Collection	</a></li>
+                                <li><a href="#" data-st="11">FYN Collection</a></li>
+                                <li><a href="#" data-st="12">FIJI Collection</a></li>
+                                <li><a href="#" data-st="13">KOLDING Collection</a></li>
+                                <li><a href="#" data-st="14">ODENSE Collection</a></li>
                             </ul>
                         </li>
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="3">Thiết bị<i class="ti-angle-down"></i></a>
+                            <a href="#" data-t="3">Dịch vụ<i class="ti-angle-down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" data-st="14">CÂN ĐIỆN TỬ</a></li>
-                                <li><a href="#" data-st="15">MÁY KHUẤY</a></li>
-                                <li><a href="#" data-st="16">MÁY NGHIỀN MẪU</a></li>
-                                <li><a href="#" data-st="17">CÁC LOẠI TỦ</a></li>
+                                <li><a href="#" data-st="15">Chính sách bán hàng</a></li>
+                                <li><a href="#" data-st="16">Chính sách đổi trả</a></li>
+                                <li><a href="#" data-st="17">CHính sách giao hàng & lắp đặt</a></li>
+
                             </ul>
                         </li>
 
