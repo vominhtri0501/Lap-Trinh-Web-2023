@@ -2,6 +2,7 @@ package database.dao;
 
 import database.DbConnection;
 
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,6 +10,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Executors;
+
+
 
 public class ProductDAO {
 
@@ -34,6 +37,7 @@ public class ProductDAO {
             return false;
         }
         return false;
+
     }
 
     public int getIdProduct(DbConnection connectDB, Product p) {
@@ -112,5 +116,6 @@ public class ProductDAO {
                 e.printStackTrace();
             }
         });
+
     }
 }

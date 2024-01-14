@@ -1,3 +1,5 @@
+
+
 package model;
 
 import java.io.Serializable;
@@ -7,6 +9,9 @@ public class Product implements Serializable {
     private int idProduct;
     private String imgPath;
     private String name;
+
+    private ProductReview review;
+
     private String status;
     private String desc;
     private int quantity;
@@ -26,6 +31,10 @@ public class Product implements Serializable {
     private int supplier;
 
 
+    private SubTypeProduct subTypeP;
+
+    private StatusProduct statusP;
+
 
     public Product() {
     }
@@ -37,6 +46,9 @@ public class Product implements Serializable {
         this.quantity = quantity;
         this.listed_price = listed_price;
         this.current_price = current_price;
+
+        this.subTypeP = subTypeP;
+        this.statusP = statusP;
     }
 
     public Product(String imgPath, String name, String desc, int quantity, int listed_price, int current_price, int type_product, int status_product, int supplier) {
@@ -51,12 +63,23 @@ public class Product implements Serializable {
         this.supplier = supplier;
     }
 
-    public Product(int idProduct, String imgPath, String name,
+    public Product(int idProduct, String name, int quantity, int listed_price, int current_price, int type_product, int status_product) {
+        this.idProduct = idProduct;
+        this.name = name;
+        this.quantity = quantity;
+        this.listed_price = listed_price;
+        this.current_price = current_price;
+        this.type_product = type_product;
+        this.status_product = status_product;
+    }
+
+    public Product(int idProduct, String imgPath, String name, ProductReview review,
                    String status, String desc, int quantity, String type, String subtype,
                    String supply, int sold, Date date, int views, double oldPrice, double newPrice) {
         this.idProduct = idProduct;
         this.imgPath = imgPath;
         this.name = name;
+        this.review = review;
         this.status = status;
         this.desc = desc;
         this.quantity = quantity;
@@ -94,6 +117,14 @@ public class Product implements Serializable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public ProductReview getReview() {
+        return review;
+    }
+
+    public void setReview(ProductReview review) {
+        this.review = review;
     }
 
     public String getStatus() {
@@ -204,6 +235,16 @@ public class Product implements Serializable {
         return supplier;
     }
 
+
+    public SubTypeProduct getSubTypeP() {
+        return subTypeP;
+    }
+
+    public StatusProduct getStatusP() {
+        return statusP;
+    }
+
+
     public void setListed_price(int listed_price) {
         this.listed_price = listed_price;
     }
@@ -233,6 +274,8 @@ public class Product implements Serializable {
                 ", quantity=" + quantity +
                 ", listed_price=" + listed_price +
                 ", current_price=" + current_price +
+                ", subTypeP=" + subTypeP +
+                ", statusP=" + statusP +
                 '}' + "\n";
     }
 }
