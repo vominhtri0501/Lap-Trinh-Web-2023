@@ -1,4 +1,5 @@
 
+
 package model;
 
 import java.io.Serializable;
@@ -8,7 +9,9 @@ public class Product implements Serializable {
     private int idProduct;
     private String imgPath;
     private String name;
+
     private ProductReview review;
+
     private String status;
     private String desc;
     private int quantity;
@@ -27,6 +30,7 @@ public class Product implements Serializable {
     private int status_product;
     private int supplier;
 
+
     private SubTypeProduct subTypeP;
 
     private StatusProduct statusP;
@@ -42,10 +46,9 @@ public class Product implements Serializable {
         this.quantity = quantity;
         this.listed_price = listed_price;
         this.current_price = current_price;
+
         this.subTypeP = subTypeP;
         this.statusP = statusP;
-
-        //Author : Minh Tuyên
     }
 
     public Product(String imgPath, String name, String desc, int quantity, int listed_price, int current_price, int type_product, int status_product, int supplier) {
@@ -58,8 +61,6 @@ public class Product implements Serializable {
         this.type_product = type_product;
         this.status_product = status_product;
         this.supplier = supplier;
-
-        // Author : Minh Tuyên
     }
 
     public Product(int idProduct, String name, int quantity, int listed_price, int current_price, int type_product, int status_product) {
@@ -70,9 +71,6 @@ public class Product implements Serializable {
         this.current_price = current_price;
         this.type_product = type_product;
         this.status_product = status_product;
-
-        //-- Author : Minh Tuyên
-        //-- đây là constructor dành cho chức năng cập nhật sản phẩm
     }
 
     public Product(int idProduct, String imgPath, String name, ProductReview review,
@@ -237,6 +235,7 @@ public class Product implements Serializable {
         return supplier;
     }
 
+
     public SubTypeProduct getSubTypeP() {
         return subTypeP;
     }
@@ -244,6 +243,7 @@ public class Product implements Serializable {
     public StatusProduct getStatusP() {
         return statusP;
     }
+
 
     public void setListed_price(int listed_price) {
         this.listed_price = listed_price;
