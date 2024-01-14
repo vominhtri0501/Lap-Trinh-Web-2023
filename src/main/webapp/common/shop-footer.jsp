@@ -1,6 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <c:set var="context" value="${pageContext.request.contextPath}"/>
+
 
 <footer class="footer">
     <!-- Footer Top -->
@@ -10,31 +11,25 @@
                 <div class="col-lg-5 col-md-6 col-12">
                     <div class="single-footer about pr-5">
                         <div class="logo mb-4">
-                            <a href="${context}/shop/home.jsp"><img src="${context}/shop/images/labchemicals-logo-non-bg.png" alt="#"/></a>
+                            <a href="index.html"><img src="../shop/images/logo2.jpg" alt="#" /></a>
                         </div>
                         <p class="text">
-                            Lab Chemicals là trang web mua sắm trực tuyến với sản phẩm chính là
-                            hóa chất dùng cho thí nghiệm. Chúng tôi cam kết đem đến những
+                            Future là trang web mua sắm trực tuyến với sản phẩm chính là
+                            đồ nội thất. Chúng tôi cam kết đem đến những
                             sản phẩm chất lượng với mức giá TỐT NHẤT trên thị trường.
                         </p>
-                        <p class="call">
-                            Có bất kỳ câu hỏi nào vui lòng liên hệ:<span class="d-block"><a href="tel:123456789">0983 803 100</a></span>
-                        </p>
+                        <p class="call">Có bất kỳ câu hỏi nào vui lòng liên hệ:<span class="d-block"><a href="tel:123456789">0978903360</a></span></p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12">
                     <div class="single-footer links">
                         <h4>Thông tin</h4>
                         <ul>
-                            <li class="d-block mb-2"><a href="#">Về chúng tôi</a></li>
-                            <li class="d-block mb-2">
-                                <a href="#">Câu hỏi thường gặp</a>
-                            </li>
-                            <li class="d-block mb-2">
-                                <a href="#">Điều khoản dịch vụ</a>
-                            </li>
-                            <li class="d-block mb-2"><a href="#">Liên hệ</a></li>
-                            <li class="d-block"><a href="#">Giúp đỡ</a></li>
+                            <li class="d-block mb-2"><a href="#0">Về chúng tôi</a></li>
+                            <li class="d-block mb-2"><a href="#0">Câu hỏi thường gặp</a></li>
+                            <li class="d-block mb-2"><a href="#0">Điều khoản dịch vụ</a></li>
+                            <li class="d-block mb-2"><a href="#0">Liên hệ</a></li>
+                            <li class="d-block"><a href="#0">Giúp đỡ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -42,11 +37,11 @@
                     <div class="single-footer links">
                         <h4>Khách hàng</h4>
                         <ul>
-                            <li class="d-block mb-2"><a href="#">Thanh toán</a></li>
-                            <li class="d-block mb-2"><a href="#">Hoàn tiền</a></li>
-                            <li class="d-block mb-2"><a href="#">Lợi nhuận</a></li>
-                            <li class="d-block mb-2"><a href="#">Vận chuyển</a></li>
-                            <li class="d-block"><a href="#">Chính sách bảo mật</a></li>
+                            <li class="d-block mb-2"><a href="#0">Thanh toán</a></li>
+                            <li class="d-block mb-2"><a href="#0">Hoàn tiền</a></li>
+                            <li class="d-block mb-2"><a href="#0">Lợi nhuận</a></li>
+                            <li class="d-block mb-2"><a href="#0">Vận chuyển</a></li>
+                            <li class="d-block"><a href="#0">Chính sách bảo mật</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,29 +50,16 @@
                         <h4>Liên lạc</h4>
                         <div class="contact">
                             <ul>
-                                <li class="mb-2">
-                                    123, phương Linh Trung, Tp. Thủ Đức, Tp. Hồ Chí Minh
-                                </li>
-                                <li class="mb-2">
-                                    35 Đinh Tiên Hoàng, phường 5, quận 5, Tp. Hồ Chí Minh
-                                </li>
-                                <li class="mb-2">info@lachemicals.com</li>
-                                <li>0983 803 100</li>
+                                <li class="mb-2">khu phố 6, Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh</li>
+                                <li class="mb-2">20130446@st.hcmuaf.edu.vn</li>
+                                <li>0978903360</li>
                             </ul>
                         </div>
                         <ul class="icon mt-3">
-                            <li class="d-inline-block mr-4">
-                                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                            </li>
-                            <li class="d-inline-block mr-4">
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li class="d-inline-block mr-4">
-                                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            </li>
-                            <li class="d-inline-block">
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </li>
+                            <li class="d-inline-block mr-4"><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li class="d-inline-block mr-4"><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li class="d-inline-block mr-4"><a href="#"><i class="ti-youtube"></i></a></li>
+                            <li class="d-inline-block"><a href="#"><i class="ti-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,13 +75,8 @@
                     <div class="col-lg-6 col-12">
                         <div class="left">
                             <p class="text-white">
-                                © 2022 - Bản quyền thuộc về Lab Chemicals &#8722; Đã đăng ký bản quyền.
+                                © 2023 - Bản quyền thuộc về nội thất future &#8722; Đã đăng ký bản quyền.
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="float-right">
-                            <img src="${context}/shop/images/payments.png" alt="#"/>
                         </div>
                     </div>
                 </div>

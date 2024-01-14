@@ -11,8 +11,8 @@
                 <div class="col-lg-7 col-md-7 col-12">
                     <div class="text-left">
                         <ul>
-                            <li><i class="ti-headphone-alt"></i>0983 803 100</li>
-                            <li><i class="fa fa-envelope-o"></i>support@labchemicals.com</li>
+                            <li><i class="ti-headphone-alt"></i>0978903360</li>
+                            <li><i class="fa fa-envelope-o"></i>20130446@st.hcmuaf.edu.vn</li>
                         </ul>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="${context}/shop/home"><img src="${context}/shop/images/labchemicals-logo.png" alt="logo"/></a>
+                        <a href="${context}/shop/home"><img src="${context}/shop/images/logo1.jpg" alt="logo"/></a>
                     </div>
                     <!-- Search Mobile -->
                     <div class="mobile-search">
@@ -89,8 +89,8 @@
                                 <i class="fa fa-shopping-cart"></i>
                                 <c:set var="cartItems" value="${sessionScope.cart.count}"/>
                                 <c:if test="${cartItems > 0}">
-                                    <span class="total-count">${cartItems}</span></a>
-                                </c:if>
+                                <span class="total-count">${cartItems}</span></a>
+                            </c:if>
                         </div>
                         <div class="right-bar-item d-inline-block ">
                             <a href="${context}/shop/profile_customer" class="single-icon">
@@ -112,35 +112,22 @@
                 <div class="navbar-collapse">
                     <ul class="nav menu navbar-nav">
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="1">Hóa chất<i class="ti-angle-down"></i></a>
+                            <a href="#" data-t="1">Sản phẩm<i class="ti-angle-down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" data-st="1">AXIT</a></li>
-                                <li><a href="#" data-st="2">BAZO</a></li>
-                                <li><a href="#" data-st="3">MUỐI</a></li>
-                                <li><a href="#" data-st="4">KIM LOẠI</a></li>
-                                <li><a href="#" data-st="5">CHẤT CHỈ THỊ</a></li>
-                                <li><a href="#" data-st="6">DUNG MÔI</a></li>
-                                <li><a href="#" data-st="7">THUỐC THỬ</a></li>
-                                <li><a href="#" data-st="8">HỢP CHẤT HỮU CƠ</a></li>
-                                <li><a href="#" data-st="9">OXIT</a></li>
+                                <li><a href="#" data-st="1">Phòng Khách</a></li>
+                                <li><a href="#" data-st="2">Phòng Ăn</a></li>
+                                <li><a href="#" data-st="3">Tủ Bếp</a></li>
+                                <li><a href="#" data-st="4">Phòng Ngủ</a></li>
+                                <li><a href="#" data-st="5">Phòng Làm Việc</a></li>
+                                <li><a href="#" data-st="6">Đồ Trang Trí</a></li>
                             </ul>
                         </li>
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="2">Dụng cụ<i class="ti-angle-down"></i></a>
+                            <a href="#" data-t="2">Bộ Sưu Tập Mới<i class="ti-angle-down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" data-st="10">GIÁ ĐỠ ỐNG NGHIỆM</a></li>
-                                <li><a href="#" data-st="11">KẸP GỖ</a></li>
-                                <li><a href="#" data-st="12">DỤNG CỤ THỦY TINH</a></li>
-                                <li><a href="#" data-st="13">ỐNG HÚT NHỎ GIỌT</a></li>
-                            </ul>
-                        </li>
-                        <li class="position-relative mr-2">
-                            <a href="#" data-t="3">Thiết bị<i class="ti-angle-down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#" data-st="14">CÂN ĐIỆN TỬ</a></li>
-                                <li><a href="#" data-st="15">MÁY KHUẤY</a></li>
-                                <li><a href="#" data-st="16">MÁY NGHIỀN MẪU</a></li>
-                                <li><a href="#" data-st="17">CÁC LOẠI TỦ</a></li>
+                                <li><a href="#" data-st="10">GRENAA COLLECTION</a></li>
+                                <li><a href="#" data-st="11">UBEDA COLLECTION</a></li>
+                                <li><a href="#" data-st="12">NARVIK COLLECTION</a></li>
                             </ul>
                         </li>
 
