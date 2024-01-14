@@ -1,4 +1,4 @@
-package controller.product;
+package controller.admin.product;
 
 import service.ProductService;
 
