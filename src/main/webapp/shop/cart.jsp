@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="pu" uri="https://com.NoiThat.functions" %>
+<%@ taglib prefix="pu" uri="https://com.noithat.functions" %>
 <c:set var="context" value="${pageContext.request.contextPath}"/>
 
 <!DOCTYPE html>
@@ -79,7 +79,7 @@
                             <a data-product-name="${item.value.product.name}"
                                class="product-name" href="${context}/shop/product-details?product_id=${item.key}">${item.value.product.name}</a>
                             <p class="product-des">
-<%--                               giuong go tram--%>
+                                    <%--                               giuong go tram--%>
                             </p>
                         </td>
                         <td class="price text-center" data-title="Price">
