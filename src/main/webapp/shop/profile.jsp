@@ -10,8 +10,8 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Lab Chemicals | Thông Tin Hồ Sơ</title>
-    <link rel="icon" type="image/png" href="images/labchemicals-logo-icon.png"/>
+    <title>Nội thất Future | Thông tin hồ sơ</title>
+    <link rel="icon" type="image/png" href="images/img_logo.png"/>
 
     <!-- ===== STYLESHEET ===== -->
     <jsp:include page="../common/shop-css.jsp"/>

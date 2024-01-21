@@ -53,7 +53,7 @@
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="${context}/shop/home"><img src="${context}/shop/images/logo1.jpg" alt="logo"/></a>
+                        <a href="${context}/shop/home"><img src="${context}/shop/images/img_logo.png" alt="logo"/></a>
                     </div>
                     <!-- Search Mobile -->
                     <div class="mobile-search">
@@ -123,12 +123,12 @@
                             </ul>
                         </li>
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="2">Bộ Sưu Tập Mới<i class="ti-angle-down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#" data-st="10">GRENAA COLLECTION</a></li>
-                                <li><a href="#" data-st="11">UBEDA COLLECTION</a></li>
-                                <li><a href="#" data-st="12">NARVIK COLLECTION</a></li>
-                            </ul>
+                            <a href="#" data-t="2">Bộ Sưu Tập Mới</a>
+<%--                            <ul class="dropdown">--%>
+<%--                                <li><a href="#" data-st="10">GRENAA COLLECTION</a></li>--%>
+<%--                                <li><a href="#" data-st="11">UBEDA COLLECTION</a></li>--%>
+<%--                                <li><a href="#" data-st="12">NARVIK COLLECTION</a></li>--%>
+<%--                            </ul>--%>
                         </li>
 
                         <li class="position-relative mr-2">
