@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="pu" uri="https://com.labchemicals.functions" %>
+<%@ taglib prefix="pu" uri="https://com.noithat.functions" %>
 
 <%-- Global variables declaration --%>
 <c:set var="context" value="${pageContext.request.contextPath}"/>
@@ -12,7 +12,8 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Future | Nội thất FUTURE</title>
+    <title>Nội thất Future | Trang chủ </title>
+    <link rel="icon" type="image/png" href="images/img_logo.png"/>
 
     <!-- ===== STYLESHEET ===== -->
     <jsp:include page="../common/shop-css.jsp"/>
@@ -131,7 +132,7 @@
                     <div class="nav-main mb-5">
                         <!-- Tab Nav -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <c:forTokens var="tab" items="Hóa chất,Dụng cụ,Thiết bị" delims="," varStatus="i">
+                            <c:forTokens var="tab" items="Sản phẩm, Bộ sưu tập" delims="," varStatus="i">
                                 <li class="nav-item d-inline-block">
                                     <a class="nav-link <c:if test="${i.first}">active</c:if>" data-toggle="tab"
                                         <%--suppress ELSpecValidationInJSP--%>

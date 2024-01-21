@@ -659,7 +659,7 @@ a:focus {
 
 .hero-slider .single-slider {
     overflow: hidden;
-    background-image: url("../images/labs/slidebar.png");
+    background-image: url(../images/slidebar.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -11,7 +11,7 @@
                 <div class="col-lg-5 col-md-6 col-12">
                     <div class="single-footer about pr-5">
                         <div class="logo mb-4">
-                            <a href="index.html"><img src="../shop/images/logo2.jpg" alt="#" /></a>
+                            <a href="index.html"><img src="../shop/images/logo_footer.jpg" alt="#" /></a>
                         </div>
                         <p class="text">
                             Future là trang web mua sắm trực tuyến với sản phẩm chính là

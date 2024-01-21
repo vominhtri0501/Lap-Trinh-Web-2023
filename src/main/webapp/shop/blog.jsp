@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="pu" uri="https://com.labchemicals.functions" %>
+<%@ taglib prefix="pu" uri="https://com.noithat.functions" %>
 <c:set var="context" value="${pageContext.request.contextPath}"/>
 
 <!DOCTYPE html>
@@ -10,8 +10,8 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Future | Nội thất FUTURE</title>
-
+    <title>Nội thất Future | Tin tức</title>
+    <link rel="icon" type="image/png" href="images/img_logo.png"/>
     <!-- ===== STYLESHEET ===== -->
     <jsp:include page="../common/shop-css.jsp"/>
 </head>
@@ -106,7 +106,7 @@
 
                                 <!-- Single Comment -->
                                 <div class="single-comment">
-                                    <img src="../images/nguoi_dung/user1.png" alt="#" />
+                                    <img src="../images/nguoi_dung/user_01_80x80.jpg" alt="#" />
                                     <div class="content">
                                         <h4>Nguyễn Xuân Hạnh <span>Vào lúc 8:59 ngày 18/2/2023</span></h4>
                                         <p>
@@ -117,7 +117,7 @@
 
                                 <!-- Single Comment -->
                                 <div class="single-comment">
-                                    <img src="../images/nguoi_dung/user2.png" alt="#" />
+                                    <img src="../images/nguoi_dung/user_02_80x80.jpg" alt="#" />
                                     <div class="content">
                                         <h4>Lê Xuân Anh <span>Vào lúc 12:59 ngày 30/2/2023</span></h4>
                                         <p>
@@ -128,7 +128,7 @@
 
                                 <!-- Single Comment -->
                                 <div class="single-comment">
-                                    <img src="../images/nguoi_dung/user3.png" alt="#" />
+                                    <img src="../images/nguoi_dung/user_03_80x80.png" alt="#" />
                                     <div class="content">
                                         <h4> Trần Văn Cầu <span>Vào lúc 10:59 ngày 28/2/2023</span></h4>
                                         <p>
