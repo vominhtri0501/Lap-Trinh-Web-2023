@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="pu" uri="https://com.labchemicals.functions" %>
+<%@ taglib prefix="pu" uri="https://com.noithat.functions" %>
 
 <%-- Global variables declaration --%>
 <c:set var="context" value="${pageContext.request.contextPath}"/>
@@ -12,8 +12,8 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Lab Chemicals | Hóa Chất Thí Nghiệm Uy Tín Chất Lượng</title>
-    <link rel="icon" type="image/png" href="images/labchemicals-logo-icon.png"/>
+    <title>Nội thất Future | Trang chủ </title>
+    <link rel="icon" type="image/png" href="images/img_logo.png"/>
 
     <!-- ===== STYLESHEET ===== -->
     <jsp:include page="../common/shop-css.jsp"/>
@@ -42,14 +42,11 @@
                     <div class="row">
                         <div class="hero-text">
                             <h1>
-                                <span>GIẢM ĐẾN 50% </span>Isoamyl acetate Emplura Merck Đức
+                                <span>GIẢM ĐẾN 49% </span>  Nội thất Future
                             </h1>
                             <p>
-                                Isoamyl acetate Emplura Là chất lỏng không màu. Được tạo mùi
-                                chuối trong thực phẩm, dùng làm dung môi vecni và sơn mài,
-                                dùng để kiểm tra hiệu quả của mặt nạ chống độc và mặt nạ
-                                khí. Độ tinh khiết: ≥ 99.0 % (a/a). Quy cách: Chai thủy tinh
-                                1000ml.
+                                Cám ơn vì đã chọn Future
+                                Future - nội thất giá rẻ , bạn của mọi nhà
                             </p>
                             <div class="button">
                                 <a href="${context}/shop/products" class="btn">Mua Ngay</a>
@@ -135,7 +132,7 @@
                     <div class="nav-main mb-5">
                         <!-- Tab Nav -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <c:forTokens var="tab" items="Hóa chất,Dụng cụ,Thiết bị" delims="," varStatus="i">
+                            <c:forTokens var="tab" items="Sản phẩm, Bộ sưu tập" delims="," varStatus="i">
                                 <li class="nav-item d-inline-block">
                                     <a class="nav-link <c:if test="${i.first}">active</c:if>" data-toggle="tab"
                                         <%--suppress ELSpecValidationInJSP--%>

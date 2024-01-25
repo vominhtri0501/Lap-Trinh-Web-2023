@@ -11,8 +11,8 @@
                 <div class="col-lg-7 col-md-7 col-12">
                     <div class="text-left">
                         <ul>
-                            <li><i class="ti-headphone-alt"></i>0329 463 114</li>
-                            <li><i class="fa fa-envelope-o"></i>support@NoiThat.com</li>
+                            <li><i class="ti-headphone-alt"></i>0978903360</li>
+                            <li><i class="fa fa-envelope-o"></i>20130446@st.hcmuaf.edu.vn</li>
                         </ul>
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                                 <i class="fa fa-shopping-cart"></i>
                                 <c:set var="cartItems" value="${sessionScope.cart.count}"/>
                                 <c:if test="${cartItems > 0}">
-                                    <span class="total-count">${cartItems}</span></a>
-                                </c:if>
+                                <span class="total-count">${cartItems}</span></a>
+                            </c:if>
                         </div>
                         <div class="right-bar-item d-inline-block ">
                             <a href="${context}/shop/profile_customer" class="single-icon">
@@ -112,38 +112,23 @@
                 <div class="navbar-collapse">
                     <ul class="nav menu navbar-nav">
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="1">Sản phẩm<i class="ti-angle-down"></i></a>
+                            <a href="#" data-t="1">Sản phẩm<i class="ti-angle-down"></i></a>
                             <ul class="dropdown">
-                                <li><a href="#" data-st="1">Phòng khách</a></li>
-                                <li><a href="#" data-st="2">Phòng ăn</a></li>
-                                <li><a href="#" data-st="3">Tủ bếp</a></li>
-                                <li><a href="#" data-st="4">Giường ngủ</a></li>
-                                <li><a href="#" data-st="5">Phòng làm việc</a></li>
-                                <li><a href="#" data-st="6">Đồ trang trí</a></li>
-
+                                <li><a href="#" data-st="1">Phòng Khách</a></li>
+                                <li><a href="#" data-st="2">Phòng Ăn</a></li>
+                                <li><a href="#" data-st="3">Tủ Bếp</a></li>
+                                <li><a href="#" data-st="4">Phòng Ngủ</a></li>
+                                <li><a href="#" data-st="5">Phòng Làm Việc</a></li>
+                                <li><a href="#" data-st="6">Đồ Trang Trí</a></li>
                             </ul>
                         </li>
                         <li class="position-relative mr-2">
-                            <a href="#" data-t="2">Bộ sưu tập<i class="ti-angle-down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#" data-st="7">VIENNA Collection</a></li>
-                                <li><a href="#" data-st="8">OSLO Collection</a></li>
-                                <li><a href="#" data-st="9">MALAGA Collection</a></li>
-                                <li><a href="#" data-st="10">MILAN Collection	</a></li>
-                                <li><a href="#" data-st="11">FYN Collection</a></li>
-                                <li><a href="#" data-st="12">FIJI Collection</a></li>
-                                <li><a href="#" data-st="13">KOLDING Collection</a></li>
-                                <li><a href="#" data-st="14">ODENSE Collection</a></li>
-                            </ul>
-                        </li>
-                        <li class="position-relative mr-2">
-                            <a href="#" data-t="3">Dịch vụ<i class="ti-angle-down"></i></a>
-                            <ul class="dropdown">
-                                <li><a href="#" data-st="15">Chính sách bán hàng</a></li>
-                                <li><a href="#" data-st="16">Chính sách đổi trả</a></li>
-                                <li><a href="#" data-st="17">CHính sách giao hàng & lắp đặt</a></li>
-
-                            </ul>
+                            <a href="#" data-t="2">Bộ Sưu Tập Mới</a>
+<%--                            <ul class="dropdown">--%>
+<%--                                <li><a href="#" data-st="10">GRENAA COLLECTION</a></li>--%>
+<%--                                <li><a href="#" data-st="11">UBEDA COLLECTION</a></li>--%>
+<%--                                <li><a href="#" data-st="12">NARVIK COLLECTION</a></li>--%>
+<%--                            </ul>--%>
                         </li>
 
                         <li class="position-relative mr-2">
