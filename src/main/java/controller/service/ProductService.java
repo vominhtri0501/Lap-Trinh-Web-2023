@@ -2,6 +2,7 @@ package controller.service;
 
 import database.DbConnection;
 import database.dao.ProductDAO;
+import model.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

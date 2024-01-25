@@ -241,34 +241,9 @@ public class AdminAddProductServlet extends HttpServlet {
 
         }
 
-        /*
-            Author : Minh Tuyên
-         */
+
     }
 
 
-      /*
-        Part part = request.getPart("AnhSP");
-        String url_img_in_database = null;
-
-        try {
-
-            String realPath = request.getServletContext().getRealPath("/DATA");   //  absolute => A:\apache-tomcat-9.0.68\webapps\HoaChatThiNghiem_war\DATA
-            String fileNameUpload = part.getSubmittedFileName();
-            Path path = Path.of(realPath);
-            if (!Files.exists(path)) Files.createDirectory(path);
-
-            String path_of_file_upload = realPath + "/" + fileNameUpload;
-            part.write(path_of_file_upload); // --> ghi file ảnh vào đường dẫn tuyệt đối trên máy chủ
-
-            url_img_in_database = CommonString.URL_STORE_DATA + fileNameUpload;
-
-        } catch (IOException io) {
-
-            url_img_in_database = "";
-
-        }
-        Receive file upload to the Servlet from the HTML5 form
-        */
 
 }

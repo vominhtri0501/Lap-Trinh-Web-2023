@@ -30,9 +30,9 @@ public class AdminBillsManagerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("bill_id");
         String cus = req.getParameter("bill_cus");
-        String price = req.getParameter("bill_price");
-        String status = req.getParameter("bill_status");
+        String price = req.getParameter("bill_price");;
         String address = req.getParameter("bill_address");
+        String status = req.getParameter("bill_status");
         customerDao.updateBill(Integer.parseInt(id), cus, Double.parseDouble(price), extractStatusId(status), address);
         resp.sendRedirect(req.getContextPath() + "/admin/quan-ly-don-hang");
     }
