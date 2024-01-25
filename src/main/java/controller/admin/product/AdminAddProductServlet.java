@@ -241,9 +241,7 @@ public class AdminAddProductServlet extends HttpServlet {
 
         }
 
-        /*
-            Author : Minh Tuyên
-         */
+
     }
 
 
