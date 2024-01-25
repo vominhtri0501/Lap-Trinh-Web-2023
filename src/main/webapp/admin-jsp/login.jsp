@@ -8,7 +8,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập</title>
+    <title>Nội thất Future | Đăng nhập</title>
     <!-- ===== STYLESHEET ===== -->
     <link rel="stylesheet" href="${context}/admin-assets/css/login.css"/>
     <link rel="stylesheet" href="${context}/admin-assets/css/bootstrap.min.css"/>

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý admin</title>
+    <title>Nội thất Future | Quản lý admin</title>
 
     <!-- ===== STYLESHEET ===== -->
     <jsp:include page="../common/admin-css.jsp"></jsp:include>
@@ -71,7 +71,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td>tranminhtuyen1@gmail.com</td>
+                            <td>tranmvanphuquy@gmail.com</td>
                             <td>Quản lí admin</td>
                             <td>
                                 <button class="btn btn-primary btn-sm edit" type="button" title="Sửa" id="show-emp"
