@@ -107,7 +107,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label class="control-label">Mật khẩu</label>
-                    <input id="InputPass" class="form-control" type="text" placeholder="it_nlu_2022">
+                    <input id="InputPass" class="form-control" type="text" placeholder="it_nlu_2024">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="SelectRole" class="control-label">Quyền</label>
