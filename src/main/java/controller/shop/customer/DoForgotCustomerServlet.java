@@ -42,12 +42,12 @@ public class DoForgotCustomerServlet extends HttpServlet {
             session.setAttribute("cus_forgot", customerSecurity);
 
             String body = "Để xác thực tài khoản đã quên mật khẩu" +
-//                        "http://localhost:8080/HoaChatThiNghiem_war/shop/verify-register";
-                    "<a href='http://localhost:8080/HoaChatThiNghiem_war/shop/change-pass-forgot?key=" + id + "'> nhấn vào đây!</a>" + "\n" +
+//                        "http://localhost:8080/wed_ban_noi_that_war/shop/verify-register";
+                    "<a href='http://localhost:8080/Wed_ban_noi_that_war/shop/change-pass-forgot?key=" + id + "'> nhấn vào đây!</a>" + "\n" +
                     "<p style='color: red;'>Mật khẩu mới của bạn: "+new_pass+"</p>";
 
-            Email sendEmailForForgot = new Email("nguyenphutai840@gmail.com", "nlrtjmzdmlihnlrz",
-                    "Hỗ trợ khách hàng quên mật khẩu của LAB CHEMICALS", body);
+            Email sendEmailForForgot = new Email("thanhloc3114@gmail.com", "ovdq jmue tyno euaa",
+                    "Hỗ trợ khách hàng quên mật khẩu của FUTURE", body);
             SendMail.sendMail(email, sendEmailForForgot);
             request.setAttribute("success_forgot", "Vui lòng kiểm tra lại hộp thư trong email mà bạn đăng ký");
             request.getServletContext().getRequestDispatcher("/shop/forgot-pass.jsp").forward(request, response);
