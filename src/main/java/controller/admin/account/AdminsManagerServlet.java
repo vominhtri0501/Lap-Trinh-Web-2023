@@ -17,7 +17,7 @@ public class AdminsManagerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Admin admin = (Admin) request.getSession().getAttribute(CommonString.ADMIN_SESSION);
-        if (admin.getId_role_admin() == 3) {
+        if (admin.getId_role_admin() == 2) {
             List<Admin> listAdmin = AdminService_MT.getAllAdmin();
             List<Object> allRoleAdminAndStatusAcc = AdminService_MT.getAllRoleAdminAndStatusAcc();
             request.setAttribute("adminList", listAdmin);

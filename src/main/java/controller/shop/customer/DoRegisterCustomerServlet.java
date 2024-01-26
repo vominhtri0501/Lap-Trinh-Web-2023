@@ -40,10 +40,10 @@ public class DoRegisterCustomerServlet extends HttpServlet {
                 request.setAttribute("session_cus", session);
                 session.setAttribute("cus", customer_register);
                 String body = "Để tạo tài khoản và sử dụng các dịch vụ của chúng tôi hãy " +
-//                        "http://localhost:8080/HoaChatThiNghiem_war/shop/verify-register";
-                        "<a href='http://localhost:8080/HoaChatThiNghiem_war/shop/verify-register?key=" + id + "'>nhấn vào đây!</a>";
-                Email sendEmailForVerify = new Email("nguyenphutai840@gmail.com", "nlrtjmzdmlihnlrz",
-                        "Chào mừng bạn trở thành một phần của LAB CHEMICALS", body);
+//                        "http://localhost:8080/wed_ban_noi_that_war/shop/verify-register";
+                        "<a href='http://localhost:8080/Wed_ban_noi_that_war/shop/verify-register?key=" + id + "'>nhấn vào đây!</a>";
+                Email sendEmailForVerify = new Email("thanhloc3114@gmail.com", "ovdq jmue tyno euaa",
+                        "Chào mừng bạn trở thành một phần của nội thất Future", body);
                 SendMail.sendMail(email, sendEmailForVerify);
                 request.setAttribute("success_register", "Vui lòng kiểm tra lại hộp thư trong email mà bạn đăng ký");
                 request.getServletContext().getRequestDispatcher("/shop/register.jsp").forward(request, response);

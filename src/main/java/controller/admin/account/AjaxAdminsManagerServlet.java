@@ -19,7 +19,7 @@ public class AjaxAdminsManagerServlet extends HttpServlet {
         String idRole = request.getParameter("IdRoleAdmin");
         try {
             Integer idRoleAdmin = Integer.parseInt(idRole);
-            if (idRoleAdmin == 3) {
+            if (idRoleAdmin == 2) {
                 response.getWriter().write(request.getContextPath() + "/admin/quan-ly-admin");
             } else {
                 response.getWriter().write("fail");

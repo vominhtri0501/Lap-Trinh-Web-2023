@@ -66,27 +66,21 @@
 <!--			</allowedExtensions>-->
 <!--			<deniedExtensions></deniedExtensions>-->
 <!--		</type>-->
-		<type name="Hóa chất">
-			<url>%BASE_URL%img_HoaChat/</url>
-			<directory>%BASE_DIR%img_HoaChat</directory>
+		<type name="Sản phẩm">
+			<url>%BASE_URL%img_SanPham/</url>
+			<directory>%BASE_DIR%img_SanPham</directory>
 			<maxSize>0</maxSize>
 			<allowedExtensions>bmp,gif,jpeg,jpg,png</allowedExtensions>
 			<deniedExtensions></deniedExtensions>
 		</type>
-		<type name="Dụng cụ">
-			<url>%BASE_URL%img_DungCu/</url>
-			<directory>%BASE_DIR%img_DungCu</directory>
+		<type name="Bộ sưu tập">
+			<url>%BASE_URL%img_Bosuutap/</url>
+			<directory>%BASE_DIR%img_Bosuutap</directory>
 			<maxSize>0</maxSize>
 			<allowedExtensions>bmp,gif,jpeg,jpg,png</allowedExtensions>
 			<deniedExtensions></deniedExtensions>
 		</type>
-		<type name="Thiết bị">
-			<url>%BASE_URL%img_ThietBi/</url>
-			<directory>%BASE_DIR%img_ThietBi</directory>
-			<maxSize>0</maxSize>
-			<allowedExtensions>bmp,gif,jpeg,jpg,png</allowedExtensions>
-			<deniedExtensions></deniedExtensions>
-		</type>
+
 <!--		<type name="Flash">-->
 <!--			<url>%BASE_URL%flash/</url>-->
 <!--			<directory>%BASE_DIR%flash</directory>-->
